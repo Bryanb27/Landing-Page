@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 0;
+}
+
+.header{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.links, a{
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.awesome{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    flex-wrap: wrap;
+    font-family: Roboto;
+    flex: 1;
+    align-content: stretch;
+}
+
+.awesome .subleft{
+    display: flex;
+    flex-direction: column;
+}
+
+.awesome .left{
+    flex: 1;
+}
+
+.awesome .right{
+    flex: 1;
+    background-color: grey;
+    color: #f9faf8;
+    padding: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.title{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.placeholder{
+    align-self: center;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    width: 80px;
+    border-radius: 25%;
+    padding: 5px;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-content: center;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 130px;   
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid blue;
+    height: 80px;
+    width: 80px;
+    border-radius: 15px; 
+    flex: 1;
+}
+
+.inspiring{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.call{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    background-color: #3882f6;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
